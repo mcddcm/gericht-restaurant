@@ -1,0 +1,36 @@
+/* *************** */
+/* *** WRAPPER *** */
+/* *************** */
+.app__video {
+  height: 100vh;
+  position: relative;
+}
+
+/* ************* */
+/* *** VIDEo *** */
+/* ************* */
+.app__video video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* *************** */
+/* *** OVERLAY *** */
+/* *************** */
+.app__video-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0 0.30);
+}
+
+/* ********************** */
+/* *** BUTTON OUTLINE *** */
+/* ********************** */
+.app__video-overlay_circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid var(--color-golden);
+  cursor: pointer;
+}
